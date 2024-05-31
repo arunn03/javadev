@@ -15,4 +15,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>local-repo</id>
+        <url>file://${user.home}/.m2/repository</url>
+    </repository>
+  </distributionManagement>
 </project>
